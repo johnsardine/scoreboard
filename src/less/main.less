@@ -1,0 +1,57 @@
+/*
+ * Dependencies
+ */
+@import (less) '../../bower_components/normalize-css/normalize.css';
+@import '_grid';
+
+
+/*
+ * Base Styles
+ */
+html {
+  font-size: 14px;
+}
+
+body {}
+
+
+/*
+ * Score Board Base Object
+ */
+#sb {
+  .__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+
+/*
+ * Players
+ */
+.sb-players {
+  &__list {
+    #sb > .__list;
+  }
+}
+
+
+/*
+ * Games
+ */
+.sb-games {
+  &__list {
+    #sb > .__list;
+  }
+}
+
+
+/*
+ * Game
+ */
+.sb-game {
+  &__players {
+    #sb > .__list;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "scoreboard",
+  "description": "Scoreboard for games among friends",
+  "main": "gulpfile.js",
+  "authors": [
+    "João Sardinha"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/johnsardine/scoreboard",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^5.0.0"
+  }
+}

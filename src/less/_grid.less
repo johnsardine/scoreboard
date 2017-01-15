@@ -1,0 +1,18 @@
+@grid-gutter: 1.25rem;
+@grid-columns: 12;
+
+.row {
+  display: flex;
+  margin-left: (@grid-gutter / -2);
+  margin-right: (@grid-gutter / -2);
+}
+
+.col {
+  padding-left: (@grid-gutter / 2);
+  padding-right: (@grid-gutter / 2);
+}
+
+.col-xs-12 {
+  &:extend(.col);
+  width: 50%;
+}
